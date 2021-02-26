@@ -57,7 +57,7 @@ namespace FeedbackWeb.Controllers
         }
 
         // GET: Feedbacks/Create
-        [Authorize]
+        
         public IActionResult Create()
         {
             return View();
